@@ -1,0 +1,14 @@
+name: AuthPlugin
+version: '${project.version}'
+main: ru.auth.AuthPlugin
+api-version: '1.21.11'
+description: Регистрация и логин с падением в бездне
+commands:
+  register:
+    description: Регистрация на сервере
+    usage: /register <пароль>
+    aliases: [reg]
+  login:
+    description: Вход на сервер
+    usage: /login <пароль>
+    aliases: [l]
